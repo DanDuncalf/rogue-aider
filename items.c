@@ -7,4 +7,5 @@ void init_items(ItemsState *items) {
 
 void free_items(ItemsState *items) {
     // No dynamic memory to free for ItemsState
+    (void)items;  // Use the parameter to avoid unused warning
 }

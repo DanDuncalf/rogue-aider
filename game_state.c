@@ -1,5 +1,6 @@
 #include "game_state.h"
 #include <stdlib.h>
+#include <stdio.h>  // Include for perror
 
 GameState *init_game_state() {
     GameState *state = malloc(sizeof(GameState));

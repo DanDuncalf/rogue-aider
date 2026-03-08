@@ -9,4 +9,5 @@ void init_monster(MonsterState *monster) {
 
 void free_monster(MonsterState *monster) {
     // No dynamic memory to free for MonsterState
+    (void)monster;  // Use the parameter to avoid unused warning
 }

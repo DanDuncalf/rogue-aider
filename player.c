@@ -10,4 +10,5 @@ void init_player(PlayerState *player) {
 
 void free_player(PlayerState *player) {
     // No dynamic memory to free for PlayerState
+    (void)player;  // Use the parameter to avoid unused warning
 }
