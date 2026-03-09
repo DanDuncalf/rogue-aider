@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "game_state.h"
 #include "map.h"
 #include "player.h"
