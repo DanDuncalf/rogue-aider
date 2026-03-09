@@ -1,6 +1,8 @@
 #include "game_state.h"
-#include <stdlib.h>
-#include <stdio.h>  // Include for perror
+#include "map.h"
+#include "player.h"
+#include "monster.h"
+#include "items.h"
 
 GameState *init_game_state() {
     GameState *state = malloc(sizeof(GameState));

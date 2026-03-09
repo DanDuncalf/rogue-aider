@@ -13,4 +13,7 @@ typedef struct {
     ItemsState items;
 } GameState;
 
+GameState *init_game_state();
+void free_game_state(GameState *state);
+
 #endif // GAME_STATE_H
